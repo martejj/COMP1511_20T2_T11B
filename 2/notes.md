@@ -228,6 +228,8 @@ __Determine the value of each expression and sub-expression:__
     = -9
     
     Important to note that in c % is not the modulo function instead it is the remainder function
+    Read:
+    https://stackoverflow.com/questions/13683563/whats-the-difference-between-mod-and-remainder#:~:text=In%20C%20and%20C%2B%2B%20and,remainder%20NOT%20the%20modulus%20operator.&text=console.
 ```
 
 </details>
