@@ -131,6 +131,34 @@ Consider what will be printed out in the following cases
 
 </details>
 
+```c
+    int a = 20;
+    int b = 20;
+
+    if (a == b) {
+        
+        int c = 30;
+        
+        printf("A\n");
+
+    }
+    
+    if (c > a) {
+        
+        printf("B\n");
+        
+    }
+    
+```
+
+<details>
+<summary>Answer</summary>
+
+    ERROR, The variable C is not in the scope when used.
+
+</details>
+
+
 ## Q5) Leap years
 
 A leap year is a year that has 366 days instead of 365. There is a leap year every year divisible by four except for years which are both divisible by 100 and not divisible by 400.
