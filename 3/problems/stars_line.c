@@ -10,11 +10,8 @@ int main(void) {
     while (row < size) {
         int col = 0;
         while (col < size) {
-            if (row == col) {
-                printf("*");
-            } else {
-                printf("-");
-            }
+            printf("*");
+            
             col++;
         }
         printf("\n");
