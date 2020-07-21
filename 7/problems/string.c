@@ -1,9 +1,10 @@
 
-
 int main(void) {
-
-    char string[] = "Hello";
-    char string[] = {'H', 'e', 'l', 'l', 'o', '\0'};
-
-    return 0;
+    
+    char string[] = "Hello"; // Best
+    
+    int array[] = {1, 2, 3, 4, 5};
+    
+    char *string = "Hello"; // worse
+    
 }

@@ -1,21 +1,30 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int isUpper(char ch);
 
 int main(void) {
-   
+
+    if (isUpper('A') != 1) {
+        printf("Failed test A\n");
+    }
     
-    // 1
-    printf("%d\n", isUpper('A'));
+    if (isUpper('Z') != 1) {
+        printf("Failed test Z\n");
+    }
+    
+    if (isUpper('a') != 0) {
+        printf("Failed test a\n");
+    }
+    
+    if (isUpper('z') != 0) {
+        printf("Failed test z\n");
+    }
+    
+    if (isUpper('-') != 0) {
+        printf("Failed test -\n");
+    }
 
-    // 0
-    printf("%d\n", isUpper('a'));
-
-    // 1
-    printf("%d\n", isUpper('K'));
-
-    // 0
-    printf("%d\n", isUpper('!'));
+    return 0;
 }
 
 int isUpper(char ch) {
@@ -27,3 +36,4 @@ int isUpper(char ch) {
     return 0;
 
 }
+

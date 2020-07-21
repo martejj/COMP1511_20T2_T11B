@@ -7,7 +7,7 @@
 * RECORD
 * Today we will cover characters and strings + more input/output
 
-## assignment 1
+## Assignment 1
 
 Well done everyone for such a great effort in the first assignment.
 
